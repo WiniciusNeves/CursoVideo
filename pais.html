@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pais</title>
+    <style>
+        body{
+            font: normal 18px Arial;
+            background: cornsilk;
+            
+        }
+
+    </style>
+</head>
+   
+<body>
+    <h1>Informe seu país de nascimento</h1>
+    País: <input type="text" name="txtp" id="txtp">
+    <input type="button" value="Verificar" onclick="calcular()">
+
+    <div id="res"></div>
+
+    <script>
+        function calcular() {
+            var txtpais = document.getElementById('txtp').value;
+            var res = document.querySelector('div#res');
+            
+            res.innerHTML = `<p>Pais é   <strong>${txtpais}</strong></p>`;
+            
+            if(txtpais.toLowerCase() === "brasil") {
+                res.innerHTML += "<p>Parabéns, você é brasileiro!</p>";
+            } else {
+                res.innerHTML += "<p>Você é estrangeiro.</p>";
+            }
+        }
+    
+    </script>
+
+
+
+
+</body>
+</html>
