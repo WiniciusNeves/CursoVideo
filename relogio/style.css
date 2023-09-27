@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+    overflow: hidden; 
+    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/4f7d8f67-1e37-4422-b358-b15be70593f4/dfcquci-e2fbe57b-f4e9-4f3b-bf07-a676f009ae48.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzRmN2Q4ZjY3LTFlMzctNDQyMi1iMzU4LWIxNWJlNzA1OTNmNFwvZGZjcXVjaS1lMmZiZTU3Yi1mNGU5LTRmM2ItYmYwNy1hNjc2ZjAwOWFlNDguZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.MJqXK4B4Nsm-Z-6-dPDVRw0sDFgNqNtPcuaKP5UDvUo'); 
+    background-size: 100%; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: flex-start; 
+}
+
+.clock {
+    background-color: transparent; 
+    border: 5px solid #ffffff;
+    border-radius: 3%;
+    color: #ffffff;
+    display: flex;
+    font-size: 100px;
+    justify-content: center;
+    height: 100px;
+    width: 365px;
+    margin-top: 20px; 
+}
