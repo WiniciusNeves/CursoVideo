@@ -1,0 +1,29 @@
+body {
+    background-image: url("https://cdna.artstation.com/p/assets/images/images/025/965/386/original/lennart-butz-idea5anim4.gif?1587480606") ; 
+    font: normal 15pt Arial;
+}
+
+header {
+    color: rgb(116, 116, 116);
+    text-align: auto;
+}   
+
+section {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.411);
+ 
+}
+
+footer {
+    color: rgb(116, 116, 116);
+    text-align: center;
+    font-style: italic;
+}
+div{
+    text-align: left;
+    padding: 8px;
+}
